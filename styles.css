@@ -18,6 +18,7 @@ body {
     background-color: hsl(30, 54%, 90%);
     font-family: "Outfit", sans-serif;
     color: var(--Wenge-Brown);
+    line-height: 1.5;
 }
 
 .main-container {
@@ -35,6 +36,13 @@ body {
     width: 50%;
 }
 
+.main-recipe h1 {
+    color: var(--Dark-Charcoal);
+    font-size: 40px;
+    font-family: "Young Serif", serif;
+    margin-bottom: 0;
+}
+
 .main-recipe p {
     font-size: 16px;
 }
@@ -45,7 +53,7 @@ body {
     border-radius: 12px;
 }
 
-.main-recipe h2, h1, h3 {
+.main-recipe h2, h3 {
     color: hsl(332, 51%, 32%);
     font-family: "Young Serif", serif;
 
@@ -55,6 +63,7 @@ body {
     background-color: var(--Rose-White);
     border-radius: 10px;
     padding: 0 0 20px 40px;
+    margin-top: 10px;
 }
 
 .nutrition td:nth-of-type(even){
@@ -99,6 +108,7 @@ li::marker {
 li::before {
     content: attr(data-before-colon); 
     font-weight: 700;
+    color: var(--Dark-Charcoal);
   }
 
 
