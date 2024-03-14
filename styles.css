@@ -45,7 +45,7 @@ body {
     border-radius: 12px;
 }
 
-.main-recipe h2, h1 {
+.main-recipe h2, h1, h3 {
     color: hsl(332, 51%, 32%);
     font-family: "Young Serif", serif;
 
