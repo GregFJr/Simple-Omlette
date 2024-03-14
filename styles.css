@@ -43,6 +43,12 @@ body {
     margin-bottom: 0;
 }
 
+.main-recipe h3 {
+    color: var(--Dark-Raspberry);
+    font-family: "Young Serif", serif;
+    margin-bottom: 0;
+}
+
 .main-recipe p {
     font-size: 16px;
 }
@@ -53,11 +59,10 @@ body {
     border-radius: 12px;
 }
 
-.main-recipe h2, h3 {
-    color: hsl(332, 51%, 32%);
+.main-recipe h2 {
+    color: var(--Nutmeg);
     font-family: "Young Serif", serif;
     margin-bottom: 0;
-
 }
 
 .prep {
